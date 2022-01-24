@@ -1,0 +1,25 @@
+@media (max-width:576px) {
+    .welcome_con_main{
+        text-align: center;
+    }
+.welcome_icon_ul{
+    justify-content: center !important;
+}
+@media (max-width:992px) {
+    .navbar-light .navbar-nav .navbar-link{
+        margin-left: auto;
+    }
+    
+    .conyact_con_dn{
+        display: none;
+    }
+    .about_con{
+        padding: 0;
+    }
+    @media (max-width:768px){
+        .slider_con{
+            text-align: center !important;
+        }
+
+
+    

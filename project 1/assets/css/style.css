@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* Font Link */
+
+/* Common Design */
+:root {
+    --primary_color : #0771b9;
+}
+/* Common Design */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+.welcome_part {
+    background: var(--primary_color);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+/* .welcome_con_main {
+    line-height: 30px;
+} */
+.welcome_con_main p {
+    font-size: 14px;
+}
+.welcome_icon ul li a {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 25px;
+}
+.welcome_icon ul li a:hover {
+    color: #353535;
+}
+.welcome_icon ul {
+    align-items: center;
+}
+
+/* Navbar Start */
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--primary_color);
+}
+/* Navbar End */
+
+
+/* Slider Part Start */
+.slider_part {
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slider_overlay {
+    background: rgba(0,0,0,0.6);
+    padding: 90px 0;
+}
+.slider_con h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    line-height: .8;
+}
+.slider_con h1:nth-child(1) {
+    font-weight: 400;
+}
+.slider_con p {
+    font-size: 14px;
+    color: #fff;
+    padding: 30px 0;
+}
+.btn_main a {
+    padding: 10px 25px;
+    background: var(--primary_color);
+    border-radius: 0;
+    border: 2px solid var(--primary_color);
+
+}
+.btn_main a:hover {
+    background: transparent;
+    border: 2px solid #fff;
+}
+.btn_main a:nth-child(1) {
+    margin-right: 20px;
+}
+/* Slider Part End */
+
+/* About Part Start */
+.about_part {
+    padding: 60px 0;
+}
+.about_head {
+    padding-bottom: 40px;
+}
+.about_head h3 {
+    color: #353535;
+}
+.about_con p {
+    color: #555;
+}
+.about_con p:nth-child(1) {
+    padding-top: 45px;
+}
+/* About Part End */
